@@ -1,13 +1,11 @@
 
 CC = gcc
 
-INCLUDE_DIRS =  -I . -I /segfs/tango/transport/zmq3.2.2/ubuntu1204/include \
-				-I /home/taurel/bin/czmq/ubuntu1204/include
+INCLUDE_DIRS =  -I . -I /usr/local/include 
 
 OBJS_DIR    = obj
 
-LIB_DIRS    = -L /segfs/tango/transport/zmq3.2.2/ubuntu1204/lib \
-			  -L /home/taurel/bin/czmq/ubuntu1204/lib
+LIB_DIRS    = -L /usr/local/lib
 
 CXXFLAGS =  -g $(INCLUDE_DIRS)
 
