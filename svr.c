@@ -37,10 +37,12 @@ int main(int argc,char *argv[])
 		printf("%ld sec %ld usec : Server %s: Received: %s\n",now.tv_sec,now.tv_usec,argv[1],rec);
 		free(rec);
 
+/*
 		if (port_nb == 9001)
 			sleep(1);
 		else
 			sleep(4);
+*/
 
 		struct timeval another_now;
 		gettimeofday(&another_now,NULL);
