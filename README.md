@@ -83,5 +83,5 @@ Work to be done or points to be analyzed (some are big tasks, some are small tas
 
 - DS command line option to start DS on a specific port (like ORBendPoint)
 
-
+- DS command line option to listen on a specific NIC
 	
